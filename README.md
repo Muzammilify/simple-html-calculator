@@ -37,7 +37,7 @@ A beautifully designed and fully functional calculator built with **HTML**, **CS
 Follow these steps to run the project locally:
 
 1. Clone the repository:
-   ```bash
+   ```git
    git clone https://github.com/Muzammilify/simple-html-calculator.git
 ```
 
