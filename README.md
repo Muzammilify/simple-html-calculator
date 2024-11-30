@@ -32,29 +32,6 @@ A beautifully designed and fully functional calculator built with **HTML**, **CS
 
 ---
 
-## **Setup Instructions**
-
-Follow these steps to run the project locally:
-
-1. Clone the repository:
-   ```git
-   git clone https://github.com/Muzammilify/simple-html-calculator.git
-```
-
-3. Open the `index.html` file in any modern web browser:
-
-    - On most operating systems, double-click the index.html file.
-
-    - Alternatively, you can use the command:
-
-```git
-open index.html
-```
-
-(Replace open with xdg-open on Linux if necessary.)
-
----
-
 How to Use
 
 1. Launch the calculator by opening the index.html file in your browser.
