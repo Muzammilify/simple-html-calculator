@@ -41,13 +41,6 @@ Follow these steps to run the project locally:
    git clone https://github.com/Muzammilify/simple-html-calculator.git
 ```
 
-2. Navigate to the project directory:
-
-```git
-cd simple-html-calculator
-```
-
-
 3. Open the `index.html` file in any modern web browser:
 
     - On most operating systems, double-click the index.html file.
