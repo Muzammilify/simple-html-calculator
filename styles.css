@@ -1,0 +1,75 @@
+/* Reset and basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1d3557, #457b9d);
+  font-family: 'Arial', sans-serif;
+}
+
+.calculator {
+  width: 350px;
+  background: #f1faee;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+
+.calculator:hover {
+  transform: scale(1.05);
+}
+
+.screen {
+  background: #a8dadc;
+  padding: 20px;
+  font-size: 2em;
+  text-align: right;
+  border-bottom: 2px solid #457b9d;
+  color: #1d3557;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.button {
+  background: #457b9d;
+  color: #f1faee;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: #1d3557;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.button.special {
+  background: #e63946;
+}
+
+.button.special:hover {
+  background: #d62828;
+}
